@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/Tea.jpg);
+}
+
+.img {
+  height: 50%;
+  width: 30%;
+  margin-left: 12%;
+  display: inline-block;
+  border: 1px solid sandybrown;
+  padding: 20px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: Cochin, serif;
+  font-size: 22px;
+  background-color: sandybrown;
+  margin-bottom: 100px;
+}
+
+.caption {
+  display: inline;
+  margin: 16%;
+  font-size: 20px;
+}
+
+.caption1 {
+  display: inline;
+  font-size: 20px;
+}
+
+.landing {
+  position: relative;
+}
+
+.textbox {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: Cochin, serif;
+  margin-bottom: 0px;
+  background-color: sandybrown;
+  margin: 15px;
+}
+
+.welcome-home {
+  display: flex;
+  justify-content: center;
+  font-family: Cochin, serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+  background-color: sandybrown;
+}
+
+.intro {
+  margin: 75px 150px 150px 150px;
+  font-size: 25px;
+}
+
+.intro1 {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.steeping-methods {
+  margin-top: 75px;
+  margin-left: 15%;
+}
+
+.methods {
+  margin-left: 15%;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.hottea {
+  border: 1px solid s;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.hot {
+  font-size: 20px;
+}
+
+.coldtea {
+  border: 1px solid s;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.cold {
+  font-size: 20px;
+}
+
+.methodsimg {
+  width: 940px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutContent {
+  height: 500px;
+  color: antiquewhite;
+}
+
+.about-landing {
+  display: flex;
+  justify-content: center;
+  font-family: Cochin, serif;
+  font-size: 20px;
+  margin-bottom: 0px;
+  background-color: sandybrown;
+}
+
+.staff {
+  display: flex;
+  justify-content: center;
+  font-family: Cochin, serif;
+  font-size: 30px;
+  background-color: sandybrown;
+  padding: 15px;
+}
+
+.picturecap {
+  font-size: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.aboutus {
+  margin: 100px;
+  font-size: 23px;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
